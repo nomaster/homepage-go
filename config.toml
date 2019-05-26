@@ -23,9 +23,9 @@ description = "nomaster"
 bio = "nomaster\nIT systems engineer and consultant"
 avatar = "img/avatar.jpg"
 favicon = "img/favicon.ico"
+email = "mic@nomaster.cc"
 
 [params.contact]
-email = "mic@nomaster.cc"
 github = "https://github.com/nomaster"
 instagram = "https://www.instagram.com/micnomaster/"
 twitter = "https://twitter.com/nomaster"
