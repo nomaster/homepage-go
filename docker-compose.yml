@@ -1,0 +1,16 @@
+version: '3.7'
+
+volumes:
+  src:
+
+services:
+  hugo:
+    build: .
+    image: localhost:5000/nomaster/homepage
+    volumes:
+      - "$PWD:/site"
+    command: "server -D -p 0.0.0.0:8080"
+    labels:
+      - 'traefik.frontend.rule=Host:homepage.nomaster.cc'
+      - 'traefik.enable=true'
+      - 'traefik.port=8080'
