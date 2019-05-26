@@ -24,6 +24,7 @@ bio = "nomaster\nIT systems engineer and consultant"
 avatar = "img/avatar.jpg"
 favicon = "img/favicon.ico"
 email = "mic@nomaster.cc"
+error404 = "ceci n'est pas une pipe"
 
 [params.contact]
 github = "https://github.com/nomaster"
